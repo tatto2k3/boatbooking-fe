@@ -1,0 +1,63 @@
+﻿﻿@import url(../../Fonts/font.css);
+.seat-paper {
+    background-color: #fff;
+    border-radius: 15px !important;
+    margin-top: 15px;
+}
+
+.plane-wrapper {
+    padding: 15px;
+    display: flex;
+}
+
+.plane-head {
+    transform: scale(1.3);
+    margin-top: 43px;
+    margin-left: 20px;
+}
+
+.plane-body {
+    background-color: #f3f5f8;
+    height: 326.3px;
+    width: 70%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    padding: 15px;
+    padding-top: 32px;
+    overflow-x: auto;
+}
+
+.seat-body {
+    width: 700px;
+}
+
+.seat-item {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+    .seat-item:hover {
+        cursor: pointer;
+        background-color: #58a7ff;
+        color: #fff;
+    }
+
+    .seat-item.active {
+        cursor: pointer;
+        background-color: #58a7ff;
+        color: #fff;
+    }
+
+    .seat-item.booked {
+        background-color: red; 
+    }

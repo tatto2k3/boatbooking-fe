@@ -1,0 +1,4 @@
+.slide-image {
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain image aspect ratio while covering the entire container */
+  }

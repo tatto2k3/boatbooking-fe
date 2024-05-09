@@ -1,0 +1,64 @@
+.container2 {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-insertSearch{
+    width: 550px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: "open sans";
+    font-weight: 100;
+    padding: 5px;
+    font-family: var(--font-secondary);
+    color: var(--color-black);
+    text-align: center  ;
+}
+
+
+.inforSearch {
+    width: 841px;
+    height: 355px;
+    flex-shrink: 0;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 180px;
+    left: 340px;
+}
+
+
+.form-signin2 {
+    margin-top: 60px;
+    margin-left: 120px;
+    color: black;
+}
+.form-controlSearchTicket {
+    width: 450px; /* Đặt chiều rộng 100% cho input */
+    height: 40px;
+    margin-bottom: 10px; /* Thêm khoảng cách giữa các trường nhập */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#scheduleInput {
+    width: 76%;
+    margin-left: 12%;
+}
+
+
+#btnSearch {
+    margin: 15px auto;
+    background-color: #0F5A90;
+    color: #FBF8F8;
+    font-family: open sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
