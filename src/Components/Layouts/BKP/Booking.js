@@ -107,7 +107,7 @@ export default function Booking() {
                                             checked={tripType === "roundTrip"}
                                             onChange={handleTripTypeChange}
                                         />
-                                        <span>Khứ hồii</span>
+                                        <span>Khứ hồi</span>
                                     </label>
                                 </div>
                             </div>
